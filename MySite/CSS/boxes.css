@@ -1,0 +1,51 @@
+#boxes {
+    clear: left;
+    margin-top: 20px;
+    height: 400px;
+}
+
+#boxes .box {
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 20px 5px 50px;
+    background: #35424a;
+    color: #fff;
+    margin: 10px 5px;
+}
+
+#boxes .box img {
+    width: 90px;
+}
+
+#boxes .box a,
+#boxes .box li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    background: none;
+    color: #fff;
+}
+
+#boxes .box li a:hover,
+#boxes .box a:hover {
+    font-size: 28px;
+    color: orangered;
+}
+
+@media(max-width:768px) {
+    #boxes {
+        display: grid;
+        grid-template-columns: 100%;
+        margin-bottom: 300px;
+    }
+
+    #boxes .box {
+        display: block;
+        width: 100%;
+    }
+
+    footer {
+        margin-top: 300px;
+        display: block;
+    }
+}

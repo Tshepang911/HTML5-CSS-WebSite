@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+/* Globals */
+.dark {
+    padding: 15px;
+    background: #35424a;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.button_1 {
+    height: 38px;
+    background: #e8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+}
+
+/* sidebar */
+aside#sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+    /* background: #1d1b1b; */
+    color: #fff;
+    text-align: center;
+    padding: 0 5px;
+}
+
+aside#sidebar .quote input,
+aside .quote textarea {
+    width: 90%;
+    padding: 5px;
+}
+
+article#main-col {
+    width: 65%;
+    float: left;
+}
+
+/* Services */
+ul#services li {
+    list-style: none;
+    padding: 20px;
+    border: #ccc solid 1px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+}
+
+.clearfix {
+    margin-top: 100px
+}
+
+@media(max-width:768px) {
+
+    header #branding,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box,
+    aside#sidebar,
+    article #main-col {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    .clearfix {
+        margin-top: 100px
+    }
+
+    header {
+        padding-bottom: 20px;
+    }
+
+    #showcase {
+        margin-top: 40px;
+    }
+
+    #newsletter button,
+    .quote button {
+        display: block;
+        width: 100%;
+    }
+
+    #newsletter form input[type="email"],
+    .quote input,
+    .quote textarea {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .container #boxes .box,
+    aside#sidebar {
+        float: none;
+        display: grid;
+        grid-template-columns: 100%;
+        align-content: center;
+        text-align: center;
+        align-items: center;
+        align-self: center;
+    }
+
+    #boxes .box {
+        display: block;
+        width: 100%;
+    }
+}

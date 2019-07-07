@@ -1,0 +1,147 @@
+<!-- the DOctype element tells the browser what type of document this is and is in which version because there are other types of Markup Languages like XML, XHTML etc -->
+<!DOCTYPE html>
+<!-- the first element that wraps around all other HTML elements, this is the parent element -->
+<html lang="en">
+<!-- the head element tells the browser where the links for css, frameworks are and has more information about the application that is never displayed in the browser directly but search engines use this information for optimization  -->
+
+<head>
+    <!-- the head's children are -->
+    <meta charset="UTF-8">
+    <!-- viewport for responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- the HTTP compatibility  meta tag -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- the title of your site -->
+    <title>One Site: About</title>
+    <!-- raw CSS3 -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- slides -->
+    <link rel="stylesheet" href="CSS/slides.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/showcase.css">
+    <link rel="stylesheet" href="CSS/newsletter.css">
+    <link rel="stylesheet" href="CSS/boxes.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <!-- Bootstrap CSS -->
+    <!-- Jquery -->
+    <!-- Materialize CSS -->
+    <!-- Font Awesome for icons -->
+    <!-- How does Node.js link with the index.html page/PHP/Python/Ruby? -->
+
+
+</head>
+<!-- the body tag this is where the content of all the markup sits and gets outputted in the browser for the client to see -->
+
+<body>
+    <!-- react has components, I wanna apply those in my development process as a pattern for learning, reatining what i have learned and for easy recalling -->
+
+    <!--Components  -->
+    <!-- the HEADER Component -->
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1> <span class="highlight">Tshepang's</span>Web Portfolio</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html" class="current">Skills</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- the SECTION component -->
+    <!-- here sits the headlines of your application of whats to come and what can be expected -->
+
+
+    <!-- A nice way for individuals to contact you immediately -->
+  
+
+    <!-- basically this is where you breakdown the headlines into consumable pieces of yourself -->
+    <section id="main">
+        <!-- A picture is worth a thousands of words, so images speak alot than words ever could. so a website with images, videos and other media is retains more people -->
+        <div class="container">
+            <article id="main-col">
+                <h1 class="page-title">
+                    Services
+                </h1>
+                <ul id="services">
+                    <li>
+                        <h3>Website Design</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam sequi fugiat nostrum eos?
+                            Suscipit facere cumque unde consectetur maxime ipsam ratione eius a quas necessitatibus et
+                            tempora eligendi, placeat molestiae!</p>
+                        <p>Pricing: R900pm- R2500</p>
+                    </li>
+                    <li>
+                        <h3>Website Maintenance</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam sequi fugiat nostrum eos?
+                            Suscipit facere cumque unde consectetur maxime ipsam ratione eius a quas necessitatibus et
+                            tempora eligendi, placeat molestiae!</p>
+                        <p>Pricing: R2 500pm</p>
+                    </li>
+                    <li>
+                        <h3>Website Hosting</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam sequi fugiat nostrum eos?
+                            Suscipit facere cumque unde consectetur maxime ipsam ratione eius a quas necessitatibus et
+                            tempora eligendi, placeat molestiae!</p>
+                        <p>Pricing: R600pm</p>
+                    </li>
+                </ul>
+            </article>
+            <!-- <aside id="sidebar">
+                <div>
+                    <h3>Get A Quote</h3>
+                    <form class="quote">
+                        <div>
+                            <label>Name:</label><br>
+                            <input type="text" name="name" id="name" required="required">
+                        </div>
+                        <div>
+                            <label>Email:</label><br>
+                            <input type="email" name="email" id="email" required="required">
+                        </div>
+                        <div>
+                            <label>Message:</label><br>
+                            <textarea placeholder="Message"></textarea>
+                        </div>
+                        <button class="button_1" type="submit">Send</button>
+                    </form>
+                </div>
+            </aside>-->
+            <aside id="sidebar">
+                    <div class="dark">
+                        <h3>Get A Quote</h3>
+                        <form class="quote">
+                            <div>
+                                <label>Name:</label><br>
+                                <input type="text" name="name" id="name" required="required">
+                            </div>
+                            <div>
+                                <label>Email:</label><br>
+                                <input type="email" name="email" id="email" required="required">
+                            </div>
+                            <div>
+                                <label>Message:</label><br>
+                                <textarea placeholder="Message"></textarea>
+                            </div>
+                            <button class="button_1" type="submit">Send</button>
+                        </form>
+                    </div>
+                </aside>
+            </div>
+        </aside>
+        </div> 
+    </section>
+
+    <footer>
+        <p>Tshepang Web Development, copyright &copy; 2017</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
